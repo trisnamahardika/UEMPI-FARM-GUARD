@@ -1,3 +1,4 @@
+//Inisialisasi Blynk
 #define BLYNK_TEMPLATE_ID "TMPL6rsCUeOa4"
 #define BLYNK_TEMPLATE_NAME "SMART FARM IoT BASED"
 #define BLYNK_AUTH_TOKEN "uNnf3MLj20KqmEfLOk-js96_B8OSlnHx"
@@ -10,6 +11,7 @@
 #include <LiquidCrystal_I2C.h>
 #include <DHT.h>
 
+//Jaringan Wi-Fi
 char ssid[] = "mahardikaXR";
 char pass[] = "12345678";
 
@@ -27,8 +29,8 @@ float suhu, kelembapan;
 int gasValue;
 bool kipasState = false;
 bool modeOtomatis = true;
-unsigned long kipasOffDelayStart = 0;   // waktu mulai delay mati kipas
-bool pendingOff = false;                // status penundaan kipas mati
+unsigned long kipasOffDelayStart = 0; 
+bool pendingOff = false;               
 
 BLYNK_WRITE(V3) {
   if (!modeOtomatis) {
