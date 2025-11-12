@@ -52,6 +52,6 @@ Cara Upload Program
 
 ---
 
-## 👨‍💻 Pengembang
-*Razif Ase*  
-> Sistem IoT ini dikembangkan untuk otomatisasi lingkungan pertanian berbasis sensor dan koneksi cloud.
+Pengembang
+*Trisna Azka Mahardika*  
+> Sistem IoT ini dikembangkan untuk otomatisasi lingkungan peternakan berbasis sensor dan koneksi cloud.
